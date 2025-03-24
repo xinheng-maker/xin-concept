@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Xin-Concept</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <!--navbar-->
+    <header>
+        <!--Nav Container-->
+        <div class="nav container">
+            <!--MENU ICON-->
+            <i id="menu-icon"><img src="bars-solid.svg" alt=""></i>
+            <!--Logo-->
+            <a href="#" class="logo">Car<span>Point</span></a>
+            <!---Nav List-->
+            <ul class="navbar">
+                <li><a href='xin.html' class="active">Home</a></li>
+                <li><a href='#cars'>Cars</a></li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#models'>Models</a></li>
+                <li><a href='#blog'>Our Blog</a></li>
+                <li><a href='#contact'>Contact US</a></li>
+            </ul>
+            <!--Search Icon-->
+            <i id="search-icon"><img src="magnifying-glass-solid.svg" alt=""></i>
+            <!--Search Box-->
+            <div class="search-box container">
+              <input type="seacrh" name="" id="" placeholder="Seacrh here..">
+            </div>
+            <!--Login Button-->
+            <a href="login.html" class="login-link"><i id="login-icon"><img src="user-solid.svg" alt=""></i></a>
+        </div>
+    </header>
+   <!--contact-->
+    <div class="contactUs">
+        <div class="title">
+            <h2>GET IN TOUCH</h2>
+        </div>
+        <div class="mainbox">
+            <!-- Form -->
+            <div class="contact">
+                <h3>Message Us Now</h3>
+                <form id="contactForm" onsubmit="return validateForm()">
+                    <div class="formBox">
+                        <div class="box">
+                            <div class="input">
+                                <span>First Name</span>
+                                <input type="text" id="firstName">
+                            </div>
+                            <div class="input">
+                                <span>Last Name</span>
+                                <input type="text" id="lastName">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input">
+                            <span>Email</span>
+                            <input type="text" id="email">
+                        </div>
+                        <div class="input">
+                            <span>Mobile</span>
+                            <input type="text" id="mobile">
+                        </div>
+                    </div>
+
+                    <div class="row1">
+                        <div class="input">
+                            <span>Message</span>
+                            <textarea id="message"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row1">
+                        <div class="input">
+                            <input type="submit" value="Send">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+                <a href="#" class="logo">Xin<span>Concept</span></a>
+                <div class="social">
+                    <a href="#"><img src="facebook .svg" alt=""></a>
+                    <a href="#"><img src="instagram.svg" alt=""></a>
+                    <a href="#"><img src="twitter.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Page</h3>
+                <a href="#">Home</a>
+                <a href="#">Cars</a>
+                <a href="#">Models</a>
+                <a href="#">Sales</a>
+            </div>
+            <div class="footer-box">
+                <h3>Legal</h3>
+                <a href="#">Privacy</a>
+                <a href="#">Refund Policy</a>
+                <a href="#">Cookie policy</a>
+            </div>
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <p>Malaysia</p>
+                <p>England</p>
+                <p>Italy</p>
+            </div>
+        </div>
+    </section>
+    <!--Copyright&date-->
+    <div class="copyright">
+        <p>&#169; Xin Concept All Right Reserved</p>
+    </div>
+    <div class="end">
+        <p>Creation date:Dec 16 2023</p>
+        <span class="date">Data Collection date:Dec 14 2023</span>
+        <p>Last modified date:</p><div id="modify"></div>
+    </div>
+    <!---link to js-->
+    <script src="main.js"></script>
+
+</body>
+</html>
